@@ -1,0 +1,32 @@
+﻿{
+	"version": "1.0.0-*",
+	"description": "DnxPrebuild.Host.ConsoleApp Console Application",
+	"authors": [ "stajs" ],
+	"tags": [ "" ],
+	"projectUrl": "",
+	"licenseUrl": "",
+
+	"compilationOptions": {
+		"emitEntryPoint": true
+	},
+
+	"dependencies": {
+	},
+
+	"commands": {
+		"prebuild-host": "DnxPrebuild.Host.ConsoleApp",
+		"prebuild-library": "DnxPrebuild.Library.ConsoleApp"
+	},
+
+	"frameworks": {
+		"dnx46": {
+			"dependencies": {
+				"DnxPrebuild.Library.ConsoleApp": "1.0.0-*"
+			}
+		}
+	},
+
+	"scripts": {
+		"prebuild": [ "dnx prebuild-library" ]
+	}
+}

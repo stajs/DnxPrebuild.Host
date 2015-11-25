@@ -1,0 +1,36 @@
+{
+  "locked": false,
+  "version": 2,
+  "targets": {
+    "DNX,Version=v4.6": {
+      "DnxPrebuild.Library.ConsoleApp/1.0.0": {
+        "type": "project",
+        "framework": "DNX,Version=v4.6"
+      }
+    },
+    "DNX,Version=v4.6/win7-x86": {
+      "DnxPrebuild.Library.ConsoleApp/1.0.0": {
+        "type": "project",
+        "framework": "DNX,Version=v4.6"
+      }
+    },
+    "DNX,Version=v4.6/win7-x64": {
+      "DnxPrebuild.Library.ConsoleApp/1.0.0": {
+        "type": "project",
+        "framework": "DNX,Version=v4.6"
+      }
+    }
+  },
+  "libraries": {
+    "DnxPrebuild.Library.ConsoleApp/1.0.0": {
+      "type": "project",
+      "path": "../../wrap/DnxPrebuild.Library.ConsoleApp/project.json"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [],
+    "DNX,Version=v4.6": [
+      "DnxPrebuild.Library.ConsoleApp >= 1.0.0-*"
+    ]
+  }
+}
